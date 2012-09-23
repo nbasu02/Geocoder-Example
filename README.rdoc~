@@ -1,0 +1,6 @@
+Just a quick app to show what I learned using geocoder.  For full documentation, see here:
+https://github.com/alexreisner/geocoder
+
+It appears you need to create a geocoder controller and make a geocoder method in it.
+
+In the rails console, make a Locator object by inputting any address and save it.  Then do Locator.near() with the first param being coordinates as an array of two floats or an address as a string, and second param is the number of miles (this can be changed to km in initializers/geocoder.rb).
